@@ -6,4 +6,8 @@ app.get("/", (req, res) => {
     res.send("Hello world")
 })
 
+app.get("/message", (req, res) => { 
+    res.send("Hello world in another branch")
+})
+
 app.listen(5000)
